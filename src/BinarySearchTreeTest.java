@@ -52,6 +52,10 @@ public class BinarySearchTreeTest {
         testBST2.insert(1);
         testBST2.insert(2);
         assertEquals(2, testBST2.size());
+        testBST2.delete(1);
+        assertEquals(1, testBST2.size());
+        testBST2.delete(2);
+        assertEquals(0, testBST2.size());
     }
 
     @Test

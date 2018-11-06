@@ -76,6 +76,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BinarySearchTr
     @Override
     public void delete(T item) throws NoSuchElementException {
         root = deleteHelper(root, item);
+        size--;
     }
 
     private BinaryTreeNode<T> deleteHelper(BinaryTreeNode<T> treeRoot, T item) throws NoSuchElementException {

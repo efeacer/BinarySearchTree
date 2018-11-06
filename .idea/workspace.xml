@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a6a66d-948d-45c2-b412-f71848affb16" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/binary_search_tree/BinaryTreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/binary_search_tree/BinaryTreeNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/binary_search_tree/BinaryTreeNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/binary_search_tree/BinaryTreeNodeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinarySearchTreeInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTreeInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BinaryTreeNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinaryTreeNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BinarySearchTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BinarySearchTreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,12 +16,12 @@
     <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest_testInsert.ic" NAME="BinarySearchTreeTest.testInsert Coverage Results" MODIFIED="1541500127650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest.ic" NAME="BinarySearchTreeTest Coverage Results" MODIFIED="1541510756795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/binary_search_tree$BinaryTreeNodeTest.ic" NAME="BinaryTreeNodeTest Coverage Results" MODIFIED="1541510948391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest_testSize.ic" NAME="BinarySearchTreeTest.testSize Coverage Results" MODIFIED="1541499353182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest_testGetHeight.ic" NAME="BinarySearchTreeTest.testGetHeight Coverage Results" MODIFIED="1541500458824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest_testSize.ic" NAME="BinarySearchTreeTest.testSize Coverage Results" MODIFIED="1541511254273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/binary_search_tree$BinarySearchTreeTest_testDeleteAndTraverse.ic" NAME="BinarySearchTreeTest.testDeleteAndTraverse Coverage Results" MODIFIED="1541510558635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="33" />
+    <option name="myElementSize" value="46" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1952555201">
@@ -47,22 +43,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8254" />
+          <entry key="java" value="8284" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8254" />
+          <entry key="JAVA" value="8284" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="630">
               <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
               <folding>
                 <element signature="e#78#79#0" expanded="true" />
@@ -84,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BinaryTreeNodeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            <state relative-caret-position="75">
+              <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,11 +95,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="1015">
+              <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
               <folding>
                 <element signature="e#140#141#0" expanded="true" />
                 <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
                 <element signature="e#231#232#0" expanded="true" />
                 <element signature="e#423#424#0" expanded="true" />
                 <element signature="e#447#448#0" expanded="true" />
@@ -117,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+            <state relative-caret-position="551">
+              <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,7 +127,7 @@
         <entry file="file://$PROJECT_DIR$/src/BinarySearchTreeInterface.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -152,10 +149,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/BinarySearchTreeInterface.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
-        <option value="$PROJECT_DIR$/src/BinarySearchTreeTest.java" />
         <option value="$PROJECT_DIR$/src/BinaryTreeNodeTest.java" />
         <option value="$PROJECT_DIR$/src/BinaryTreeNode.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearchTree.java" />
+        <option value="$PROJECT_DIR$/src/BinarySearchTreeTest.java" />
       </list>
     </option>
   </component>
@@ -195,7 +192,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541511044010" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541511340855" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
@@ -211,7 +208,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BinaryTreeNodeTest">
+  <component name="RunManager" selected="JUnit.BinarySearchTreeTest.testSize">
     <configuration name="BinarySearchTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="binary_search_tree" />
       <option name="PACKAGE_NAME" value="" />
@@ -230,21 +227,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BinarySearchTreeTest.testGetHeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="binary_search_tree" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
-      <option name="METHOD_NAME" value="testGetHeight" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BinarySearchTreeTest.testRetrieve" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="binary_search_tree" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
       <option name="METHOD_NAME" value="testRetrieve" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchTreeTest.testSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="binary_search_tree" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BinarySearchTreeTest" />
+      <option name="METHOD_NAME" value="testSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -260,18 +257,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.BinarySearchTreeTest" />
-      <item itemvalue="JUnit.BinarySearchTreeTest.testGetHeight" />
       <item itemvalue="JUnit.BinarySearchTreeTest.testRetrieve" />
       <item itemvalue="JUnit.BinarySearchTreeTest.testDeleteAndTraverse" />
       <item itemvalue="JUnit.BinaryTreeNodeTest" />
+      <item itemvalue="JUnit.BinarySearchTreeTest.testSize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BinarySearchTreeTest.testSize" />
         <item itemvalue="JUnit.BinaryTreeNodeTest" />
         <item itemvalue="JUnit.BinarySearchTreeTest" />
         <item itemvalue="JUnit.BinarySearchTreeTest.testDeleteAndTraverse" />
         <item itemvalue="JUnit.BinarySearchTreeTest.testRetrieve" />
-        <item itemvalue="JUnit.BinarySearchTreeTest.testGetHeight" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +296,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTreeTest_testDeleteAndTraverse - 2018.11.06 at 13h 39m 21s.xml">
-      <configuration name="BinarySearchTreeTest.testDeleteAndTraverse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTreeTest_testDeleteAndTraverse - 2018.11.06 at 13h 39m 45s.xml">
-      <configuration name="BinarySearchTreeTest.testDeleteAndTraverse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTreeTest_testDeleteAndTraverse - 2018.11.06 at 13h 45m 33s.xml">
       <configuration name="BinarySearchTreeTest.testDeleteAndTraverse" configurationId="JUnit" />
     </history-entry>
@@ -329,6 +320,12 @@
     <history-entry file="BinaryTreeNodeTest - 2018.11.06 at 14h 29m 09s.xml">
       <configuration name="BinaryTreeNodeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BinarySearchTreeTest_testSize - 2018.11.06 at 14h 34m 16s.xml">
+      <configuration name="BinarySearchTreeTest.testSize" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BinarySearchTreeTest_testSize - 2018.11.06 at 14h 35m 13s.xml">
+      <configuration name="BinarySearchTreeTest.testSize" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="81" y="29" width="1236" height="805" extended-state="0" />
@@ -347,13 +344,13 @@
       <window_info anchor="bottom" id="Messages" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.06311361" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31697056" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
-      <window_info active="true" anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.28643215" />
+      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.28643215" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
@@ -396,52 +393,16 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#140#141#0" expanded="true" />
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinarySearchTreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" lean-forward="true" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/BinarySearchTreeInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BinaryTreeNodeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BinaryTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="630">
           <caret line="42" column="4" selection-start-line="42" selection-start-column="4" selection-end-line="42" selection-end-column="4" />
           <folding>
             <element signature="e#78#79#0" expanded="true" />
@@ -458,6 +419,43 @@
             <element signature="e#625#626#0" expanded="true" />
             <element signature="e#996#997#0" expanded="true" />
             <element signature="e#1058#1059#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1015">
+          <caret line="78" column="15" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
+          <folding>
+            <element signature="e#140#141#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#423#424#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinarySearchTreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="57" column="41" lean-forward="true" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BinaryTreeNodeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="33" lean-forward="true" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
