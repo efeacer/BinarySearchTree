@@ -1,3 +1,5 @@
+package Main;
+
 public interface BinarySearchTreeInterface<T extends Comparable<T>> {
 
     boolean isEmpty();

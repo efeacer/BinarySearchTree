@@ -1,3 +1,5 @@
+package Main;
+
 import java.util.NoSuchElementException;
 
 public class BinarySearchTree<T extends Comparable<T>> implements BinarySearchTreeInterface<T> {
@@ -113,7 +115,7 @@ public class BinarySearchTree<T extends Comparable<T>> implements BinarySearchTr
     @Override
     public void insert(T item) {
         if (root == null) {
-            root = new BinaryTreeNode<T>(item);
+            root = new BinaryTreeNode<>(item);
         } else {
             insertHelper(root, item);
         }
@@ -123,13 +125,13 @@ public class BinarySearchTree<T extends Comparable<T>> implements BinarySearchTr
     private void insertHelper(BinaryTreeNode<T> treeRoot, T item) {
         if (item.compareTo(treeRoot.getItem()) <= 0) {
             if (treeRoot.getLeftChild() == null) {
-                treeRoot.setLeftChild(new BinaryTreeNode<T>(item));
+                treeRoot.setLeftChild(new BinaryTreeNode<>(item));
             } else {
                 insertHelper(treeRoot.getLeftChild(), item);
             }
         } else {
             if (treeRoot.getRightChild() == null) {
-                treeRoot.setRightChild(new BinaryTreeNode<T>(item));
+                treeRoot.setRightChild(new BinaryTreeNode<>(item));
             } else {
                 insertHelper(treeRoot.getRightChild(), item);
             }

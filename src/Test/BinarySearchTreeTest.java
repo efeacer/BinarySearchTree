@@ -1,3 +1,7 @@
+package Test;
+
+import Main.BinarySearchTree;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -48,14 +52,14 @@ public class BinarySearchTreeTest {
 
     @Test
     public void testSize() {
-        assertEquals(0, testBST2.size());
+        Assert.assertEquals(0, testBST2.size());
         testBST2.insert(1);
         testBST2.insert(2);
-        assertEquals(2, testBST2.size());
+        Assert.assertEquals(2, testBST2.size());
         testBST2.delete(1);
-        assertEquals(1, testBST2.size());
+        Assert.assertEquals(1, testBST2.size());
         testBST2.delete(2);
-        assertEquals(0, testBST2.size());
+        Assert.assertEquals(0, testBST2.size());
     }
 
     @Test
@@ -79,20 +83,20 @@ public class BinarySearchTreeTest {
             testBST3.delete(241);
             fail("Should have raised an exception.");
         } catch (NoSuchElementException e) {
-            assertEquals(3, testBST3.getHeight());
+            Assert.assertEquals(3, testBST3.getHeight());
         }
     }
 
     @Test
     public void testGetHeight() {
-        assertEquals(4 , testBST1.getHeight());
-        assertEquals(0, testBST2.getHeight());
+        Assert.assertEquals(4 , testBST1.getHeight());
+        Assert.assertEquals(0, testBST2.getHeight());
         testBST2.insert(1);
-        assertEquals(1, testBST2.getHeight());
+        Assert.assertEquals(1, testBST2.getHeight());
         for (int i = 2; i <= 5; i++) {
             testBST2.insert(i);
         }
-        assertEquals(5, testBST2.getHeight());
+        Assert.assertEquals(5, testBST2.getHeight());
     }
 
     @Test
@@ -107,7 +111,7 @@ public class BinarySearchTreeTest {
             testBST1.retrieve(11);
             fail("Should have raised an exception.");
         } catch (NoSuchElementException e) {
-            assertEquals(new Integer(2), testBST1.retrieve(2));
+            Assert.assertEquals(new Integer(2), testBST1.retrieve(2));
         }
     }
 
