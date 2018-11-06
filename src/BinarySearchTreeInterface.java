@@ -1,4 +1,4 @@
-public interface BinarySearchTreeInterface<T> {
+public interface BinarySearchTreeInterface<T extends Comparable<T>> {
 
     public boolean isEmpty();
 

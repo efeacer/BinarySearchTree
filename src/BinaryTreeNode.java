@@ -1,4 +1,4 @@
-public class BinaryTreeNode<T> {
+public class BinaryTreeNode<T extends Comparable<T>> {
 
     private T item;
     private BinaryTreeNode<T> leftChild;
