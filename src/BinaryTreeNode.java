@@ -1,43 +1,47 @@
-public class BinaryTreeNode<T extends Comparable<T>> {
+class BinaryTreeNode<T extends Comparable<T>> {
 
     private T item;
     private BinaryTreeNode<T> leftChild;
     private BinaryTreeNode<T> rightChild;
 
-    public BinaryTreeNode(T item) {
+    BinaryTreeNode(T item) {
         this.item = item;
         leftChild = null;
         rightChild = null;
     }
 
-    public BinaryTreeNode(T item, BinaryTreeNode leftChild, BinaryTreeNode rightChild) {
+    BinaryTreeNode(T item, BinaryTreeNode<T> leftChild, BinaryTreeNode<T> rightChild) {
         this.item = item;
         this.leftChild = leftChild;
         this.rightChild = rightChild;
     }
 
-    public T getItem() {
+    T getItem() {
         return item;
     }
 
-    public BinaryTreeNode<T> getLeftChild() {
+    BinaryTreeNode<T> getLeftChild() {
         return leftChild;
     }
 
-    public BinaryTreeNode<T> getRightChild() {
+    BinaryTreeNode<T> getRightChild() {
         return rightChild;
     }
 
-    public void setItem(T item) {
+    void setItem(T item) {
         this.item = item;
     }
 
-    public void setLeftChild(BinaryTreeNode<T> leftChild) {
+    void setLeftChild(BinaryTreeNode<T> leftChild) {
         this.leftChild = leftChild;
     }
 
-    public void setRightChild(BinaryTreeNode<T> rightChild) {
+    void setRightChild(BinaryTreeNode<T> rightChild) {
         this.rightChild = rightChild;
+    }
+
+    boolean isLeaf() {
+        return leftChild == null && rightChild == null;
     }
 
 }

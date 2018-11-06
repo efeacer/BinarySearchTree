@@ -3,7 +3,7 @@ import org.junit.Test;
 
 import static junit.framework.TestCase.assertNotNull;
 import static junit.framework.TestCase.assertNull;
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 public class BinaryTreeNodeTest {
 
@@ -58,6 +58,12 @@ public class BinaryTreeNodeTest {
         testNode1.setRightChild(new BinaryTreeNode<Integer>(10));
         assertNotNull(testNode1.getRightChild());
         assertEquals(new Integer(10), testNode1.getRightChild().getItem());
+    }
+
+    @Test
+    public void testIsLeaf() {
+        assertTrue(testNode1.isLeaf());
+        assertFalse(testNode2.isLeaf());
     }
 
 }

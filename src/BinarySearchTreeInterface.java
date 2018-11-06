@@ -1,21 +1,23 @@
 public interface BinarySearchTreeInterface<T extends Comparable<T>> {
 
-    public boolean isEmpty();
+    boolean isEmpty();
 
-    public int size();
+    int size();
 
-    public boolean contains(T item);
+    int getHeight();
 
-    public T retrieve(T item);
+    boolean contains(T item);
 
-    public T delete(T item);
+    T retrieve(T item);
 
-    public void insert(T item);
+    void delete(T item);
 
-    public void inorderTraverse();
+    void insert(T item);
 
-    public void preorderTraverse();
+    void inorderTraverse();
 
-    public void postorderTraverse();
+    void preorderTraverse();
+
+    void postorderTraverse();
 
 }
